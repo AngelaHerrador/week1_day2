@@ -23,14 +23,56 @@
         section {
             margin: 80px 0
         }
+
+        .menu {
+            display: flex;
+            border-bottom: 1px solid;
+            justify-content: space-between;
+        }
+
+        .menu img {
+            width: 200px;
+        }
+
+        .menu ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .menu li {
+            margin: 10px
+        }
+
+        .intro {
+            background-color: papayawhip;
+        }
     </style>
 </head>
 
 <body>
 
+    <header class="menu">
+
+        <a href="#">
+            <img src="https://cosasdigitales.com/wp-content/uploads/2016/11/cosas-digitales-logo-negro-700.png"
+                alt="Logotipo">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">nosotros</a></li>
+                <li><a href="#">productos</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+
+    </header>
 
 
-    <section>
+
+    <section class="intro">
 
         <div class="container">
 
@@ -79,10 +121,10 @@
     <section>
 
         <div class="container">
+
             <h2>Segunda sección</h2>
 
             <div class="row justify-content-around">
-
 
                 <div class="col-md-4">
                     <article>
